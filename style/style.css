@@ -41,6 +41,19 @@ body {
     background-color: #ffffff;
 }
 
+.btn:focus{
+    cursor: pointer;
+}
+
+.btn a{
+    color: #ffffff
+}
+
+.btn a:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
 .dropdown {
     float:right;
     overflow: hidden;
@@ -169,4 +182,11 @@ body {
 
 #hours #sunday #closed {
     margin-left: 40px;
+}
+
+/* login and sign Up Pages*/
+input{
+    color: #130202 ;
+    border-radius: 35px;
+    padding: 10px;
 }
